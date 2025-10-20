@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { ListaPersonajesComponent } from './pages/lista-personajes/lista-personajes.component';
 
 export const routes: Routes = [
   {
@@ -7,7 +8,8 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'lista-personajes',
     pathMatch: 'full',
+    component: ListaPersonajesComponent,
   },
 ];
