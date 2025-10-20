@@ -1,0 +1,7 @@
+{
+  "name": "nomas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
