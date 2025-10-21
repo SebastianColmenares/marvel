@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Personaje } from '../interfaces/personaje'; 
+import { Personaje } from '../interfaces/personaje.interface'; 
 
 @Injectable({
   providedIn: 'root'

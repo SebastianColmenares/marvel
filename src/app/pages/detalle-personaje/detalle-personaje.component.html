@@ -1,3 +1,20 @@
-<p>
-  detalle-personaje works!
-</p>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/lista"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalle</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{ personaje?.alias }}</ion-card-title>
+      <ion-card-subtitle>{{ personaje?.nombre }}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <!-- Solo alias y nombre (contenido visual ya mostrado en el header). -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
